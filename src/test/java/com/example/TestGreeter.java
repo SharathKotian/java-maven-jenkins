@@ -25,7 +25,7 @@ public class TestGreeter {
     String someone = "World";
     String anotherOne = "Someone";
 
-    assertThat(greeter.greet(anotherOne), containsString(anotherOne));
+    assertThat(greeter.greet(someone), containsString(anotherOne));
   }
 
   @Test
